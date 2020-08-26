@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Object</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body onLoad="init();">
+    <canvas id="canvas" width="700" height="425"></canvas>
+    <p>Enter a number in each box no less than 5</p>
+    <form name="form" id="form">
+        <label>Horizontal Velocity</label>
+        <input name="hVelo" value="5" type="number" min="5" required> 
+        <br>
+        <label>Vertical Velocity</label>
+        <input name="vVelo" value="5" type="number" min="5" required>
+        <br>
+    </form>
+    <button onclick="change();">Change</button>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+form {
+    width: 21.875rem;
+    margin: 1.5625rem;
+    background-color: #DC143C;
+    padding: 1.875rem;
+}
+
+p {
+    margin-left: 1.6rem;
+    font-weight: bold; 
+}
+
+button {
+    margin-left: 1.6rem;
+}
+
+/* input:valid {
+    background: blue
+};
+
+input:invalid {
+    background: brown;
+} */
